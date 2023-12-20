@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* CORES
+#FAB148
+#9C48FA
+#7CFAA2
+
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #FAB148;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.534);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    
+}
+
+section#login > div#imagem {
+    display: block;
+    background: #FAB148 url(../imagens/pexels-征宇-郑-19479332.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+
+section#login > div#imagem {
+    display: block;
+    padding: 10px;
+}
